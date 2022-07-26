@@ -14,7 +14,17 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <div class="card">
+                        <div class="card-header">
+                         Post
+                        </div>
+                        <div class="card-body">
+                          <h5 class="card-title"></h5>
+                          <p class="card-text"></p>
+                          <a href="/post" class="btn btn-primary">Upload</a>
+                        </div>
+                      </div>
+
                 </div>
             </div>
         </div>
